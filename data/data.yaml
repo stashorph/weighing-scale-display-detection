@@ -1,0 +1,7 @@
+train: C:/Users/Sesh/Projects/weighing-scale-detection/dataset/train/images
+val: C:/Users/Sesh/Projects/weighing-scale-detection/dataset/valid/images
+test: C:/Users/Sesh/Projects/weighing-scale-detection/dataset/test/images
+
+
+nc: 2
+names: ['Inactive','LED-display']
