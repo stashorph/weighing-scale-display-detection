@@ -6,7 +6,7 @@ st.set_page_config(page_title="Object Detection", layout="centered")
 st.title("Object Detection App")
 
 #Load model
-model = YOLO("models/weights/best.pt")
+model = YOLO("models/best.pt")
 
 #File uploader
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
